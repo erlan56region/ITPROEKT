@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITCOFFEE | Архитекторы цифрового будущего</title>
+    <title>ITCoffee | Архитекторы цифрового будущего</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
@@ -44,7 +44,6 @@
             position: relative;
         }
 
-        /* Индикатор загрузки */
         .loader {
             position: fixed;
             top: 0;
@@ -75,7 +74,7 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .loader-bar {
@@ -92,10 +91,9 @@
             width: 0%;
             background: var(--gradient-primary);
             border-radius: 4px;
-            transition: width 0.3s ease;
+            transition: width 0.05s linear;
         }
 
-        /* Анимированный фон */
         .animated-bg {
             position: fixed;
             top: 0;
@@ -140,7 +138,6 @@
             padding: 0 40px;
         }
 
-        /* Навигация */
         nav {
             position: fixed;
             top: 0;
@@ -216,7 +213,6 @@
             width: 100%;
         }
 
-        /* Мобильное меню */
         .mobile-menu-btn {
             display: none;
             background: none;
@@ -285,14 +281,13 @@
             visibility: visible;
         }
 
-        /* Герой секция */
         .hero {
             min-height: 100vh;
             display: flex;
             align-items: center;
             position: relative;
             overflow: hidden;
-            padding-top: 100px;
+            padding-top: 80px; /* Добавлено для компенсации фиксированной навигации */
         }
 
         .hero-content {
@@ -323,7 +318,7 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .hero-subtitle {
@@ -349,8 +344,8 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
             margin-bottom: 5px;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .stat-label {
@@ -360,7 +355,6 @@
             letter-spacing: 1px;
         }
 
-        /* Кнопки */
         .btn {
             display: inline-flex;
             align-items: center;
@@ -384,7 +378,8 @@
 
         .btn-outline {
             background: transparent;
-            border: 2px solid var(--neon-blue);
+            border: 2px solid;
+            border-image: var(--gradient-primary) 1;
             color: white;
             box-shadow: none;
         }
@@ -394,7 +389,6 @@
             color: white;
         }
 
-        /* Секции */
         section {
             padding: var(--section-spacing) 0;
         }
@@ -409,12 +403,12 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 2px;
             font-size: 0.9rem;
             margin-bottom: 15px;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .section-title {
@@ -424,7 +418,7 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .section-subtitle {
@@ -434,7 +428,6 @@
             margin: 0 auto;
         }
 
-        /* Проекты */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -532,7 +525,6 @@
             font-size: 0.8rem;
         }
 
-        /* Технологии */
         .tech-showcase {
             background: rgba(30, 30, 30, 0.5);
             border-radius: 24px;
@@ -569,7 +561,7 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .tech-name {
@@ -584,166 +576,6 @@
             line-height: 1.6;
         }
 
-        /* О компании */
-        .about-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            margin-top: 60px;
-        }
-
-        .about-card {
-            background: var(--card-bg);
-            padding: 40px 30px;
-            border-radius: 16px;
-            text-align: center;
-            transition: all 0.3s ease;
-            border: 1px solid var(--glass-border);
-        }
-
-        .about-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--neon-blue);
-            box-shadow: var(--neon-glow-blue);
-        }
-
-        .about-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            background: var(--gradient-primary);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .about-card h3 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: white;
-        }
-
-        .about-card p {
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 1.6;
-        }
-
-        /* Команда */
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-            margin-top: 60px;
-        }
-
-        .team-member {
-            background: var(--card-bg);
-            padding: 40px 30px;
-            border-radius: 16px;
-            text-align: center;
-            transition: all 0.3s ease;
-            border: 1px solid var(--glass-border);
-        }
-
-        .team-member:hover {
-            transform: translateY(-5px);
-            border-color: var(--neon-blue);
-            box-shadow: var(--neon-glow-blue);
-        }
-
-        .member-photo {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            background: var(--gradient-primary);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 20px;
-            font-size: 3rem;
-            color: white;
-        }
-
-        .team-member h3 {
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: white;
-        }
-
-        .member-role {
-            color: var(--neon-blue);
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-
-        .member-bio {
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 1.6;
-        }
-
-        /* Достижения */
-        .timeline {
-            max-width: 800px;
-            margin: 60px auto 0;
-            position: relative;
-        }
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: var(--gradient-primary);
-            transform: translateX(-50%);
-        }
-
-        .timeline-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 60px;
-            position: relative;
-        }
-
-        .timeline-item:nth-child(even) {
-            flex-direction: row-reverse;
-        }
-
-        .timeline-year {
-            background: var(--gradient-primary);
-            color: white;
-            padding: 15px 25px;
-            border-radius: 30px;
-            font-weight: 700;
-            font-size: 1.2rem;
-            position: relative;
-            z-index: 2;
-        }
-
-        .timeline-content {
-            background: var(--card-bg);
-            padding: 30px;
-            border-radius: 16px;
-            width: 45%;
-            border: 1px solid var(--glass-border);
-        }
-
-        .timeline-content h3 {
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: white;
-        }
-
-        .timeline-content p {
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 1.6;
-        }
-
-        /* Контакты */
         .contact-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -768,7 +600,7 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .contact-details h4 {
@@ -861,7 +693,6 @@
             display: none;
         }
 
-        /* Футер */
         footer {
             background: rgba(10, 10, 10, 0.9);
             padding: 80px 0 30px;
@@ -882,7 +713,7 @@
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+            background-clip: text; /* Добавлено для лучшей поддержки браузеров */
         }
 
         .footer-info p {
@@ -922,7 +753,6 @@
             font-size: 0.9rem;
         }
 
-        /* Кнопка "Наверх" */
         .scroll-to-top {
             position: fixed;
             bottom: 30px;
@@ -952,32 +782,15 @@
             transform: translateY(-5px);
         }
 
-        /* Адаптивность */
         @media (max-width: 1200px) {
             .container {
                 padding: 0 30px;
             }
-            
             .hero-title {
                 font-size: 3.5rem;
             }
-            
             .footer-content {
                 grid-template-columns: 1fr 1fr;
-            }
-            
-            .timeline::before {
-                left: 30px;
-            }
-            
-            .timeline-item {
-                flex-direction: row !important;
-                justify-content: flex-start;
-                gap: 40px;
-            }
-            
-            .timeline-content {
-                width: calc(100% - 130px);
             }
         }
 
@@ -986,16 +799,10 @@
                 grid-template-columns: 1fr;
                 gap: 50px;
             }
-            
             .tech-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
             .projects-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .about-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -1004,89 +811,57 @@
             .nav-links {
                 display: none;
             }
-            
             .mobile-menu-btn {
                 display: block;
             }
-            
             .hero-title {
                 font-size: 2.5rem;
             }
-            
             .section-title {
                 font-size: 2.5rem;
             }
-            
             .tech-grid {
                 grid-template-columns: 1fr;
             }
-            
             .footer-content {
                 grid-template-columns: 1fr;
             }
-            
             .container {
                 padding: 0 20px;
             }
-            
             .hero-stats {
                 flex-direction: column;
                 gap: 20px;
             }
-            
             .tech-showcase {
                 padding: 40px 20px;
             }
-            
-            .team-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .timeline::before {
-                left: 20px;
-            }
-            
-            .timeline-item {
-                gap: 20px;
-            }
-            
-            .timeline-content {
-                width: calc(100% - 100px);
-            }
-            
-            .timeline-year {
-                padding: 10px 15px;
-                font-size: 1rem;
+            .hero {
+                padding-top: 100px; /* Увеличено для мобильных устройств */
             }
         }
     </style>
 </head>
 <body>
-    <!-- Индикатор загрузки -->
     <div class="loader" id="pageLoader">
         <div class="loader-content">
-            <div class="loader-logo">ITCOFFEE</div>
+            <div class="loader-logo">ITCoffee</div>
             <div class="loader-bar">
                 <div class="loader-progress" id="loaderProgress"></div>
             </div>
         </div>
     </div>
-
-    <!-- Анимированный фон -->
     <div class="animated-bg"></div>
     <div class="grid-overlay"></div>
-
-    <!-- Навигация -->
     <nav>
         <div class="container nav-container">
             <a href="#" class="logo">
-                ITCOFFEE
+                ITCoffee
                 <div class="logo-dot"></div>
             </a>
             <ul class="nav-links">
                 <li><a href="#projects">Проекты</a></li>
                 <li><a href="#tech">Технологии</a></li>
-                <li><a href="#about">О нас</a></li>
                 <li><a href="#contact">Контакты</a></li>
             </ul>
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -1095,18 +870,15 @@
         </div>
     </nav>
 
-    <!-- Мобильное меню -->
     <div class="mobile-menu" id="mobileMenu">
         <ul class="mobile-nav-links">
             <li><a href="#projects">Проекты</a></li>
             <li><a href="#tech">Технологии</a></li>
-            <li><a href="#about">О нас</a></li>
             <li><a href="#contact">Контакты</a></li>
         </ul>
     </div>
     <div class="menu-overlay" id="menuOverlay"></div>
 
-    <!-- Герой секция -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -1138,7 +910,6 @@
         </div>
     </section>
 
-    <!-- Проекты -->
     <section id="projects">
         <div class="container">
             <div class="section-header">
@@ -1148,7 +919,6 @@
             </div>
             
             <div class="projects-grid">
-                <!-- Проект 1 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Quantum Nexus">
@@ -1165,7 +935,6 @@
                     </div>
                 </div>
                 
-                <!-- Проект 2 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="NeuraLink AI">
@@ -1182,7 +951,6 @@
                     </div>
                 </div>
                 
-                <!-- Проект 3 -->
                 <div class="project-card">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="BioSync">
@@ -1198,11 +966,58 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="EcoSphere">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Устойчивые технологии</span>
+                        <h3 class="project-title">EcoSphere AI</h3>
+                        <p class="project-description">Глобальная система мониторинга и оптимизации климата с предиктивной аналитикой экологических изменений.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI Аналитика</span>
+                            <span class="tech-tag">IoT Сенсоры</span>
+                            <span class="tech-tag">Климатическое моделирование</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="SpaceNet">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Космические технологии</span>
+                        <h3 class="project-title">SpaceNet Constellation</h3>
+                        <p class="project-description">Спутниковая сеть нового поколения, обеспечивающая глобальный охват интернетом со скоростью 10 Гбит/с.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">LEO Спутники</span>
+                            <span class="tech-tag">Квантовая связь</span>
+                            <span class="tech-tag">Фотонные вычисления</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="MetaCore">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Метавселенные</span>
+                        <h3 class="project-title">MetaCore Platform</h3>
+                        <p class="project-description">Децентрализованная платформа для создания и взаимодействия с фотореалистичными метавселенными.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Web3</span>
+                            <span class="tech-tag">VR/AR</span>
+                            <span class="tech-tag">Blockchain</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Технологии -->
     <section id="tech">
         <div class="container">
             <div class="section-header">
@@ -1227,7 +1042,7 @@
                     <h3 class="tech-name">Искусственный интеллект</h3>
                     <p class="tech-description">Самообучающиеся системы, способные к творческому мышлению и решению сложных проблем</p>
                 </div>
-
+                
                 <div class="tech-card">
                     <div class="tech-icon">
                         <i class="fas fa-dna"></i>
@@ -1235,133 +1050,59 @@
                     <h3 class="tech-name">Биотехнологии</h3>
                     <p class="tech-description">Синтез биологии и технологий для создания революционных медицинских решений</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- О компании -->
-    <section id="about">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-label">О компании</div>
-                <h2 class="section-title">Кто мы такие</h2>
-                <p class="section-subtitle">ITCOFFEE — это сообщество инноваторов, исследователей и мечтателей</p>
-            </div>
-
-            <div class="about-grid">
-                <div class="about-card">
-                    <div class="about-icon">
-                        <i class="fas fa-bullseye"></i>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <h3>Наша миссия</h3>
-                    <p>Создавать технологии, которые решают глобальные проблемы человечества и открывают новые возможности для развития цивилизации.</p>
+                    <h3 class="tech-name">Космические технологии</h3>
+                    <p class="tech-description">Разработка систем для освоения космоса и создания инфраструктуры за пределами Земли</p>
                 </div>
-
-                <div class="about-card">
-                    <div class="about-icon">
-                        <i class="fas fa-eye"></i>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Наше видение</h3>
-                    <p>Мир, где технологии служат не просто инструментами, а катализаторами позитивных изменений в жизни каждого человека.</p>
+                    <h3 class="tech-name">Кибербезопасность</h3>
+                    <p class="tech-description">Квантово-устойчивые системы защиты для цифровой инфраструктуры будущего</p>
                 </div>
-
-                <div class="about-card">
-                    <div class="about-icon">
-                        <i class="fas fa-star"></i>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-network-wired"></i>
                     </div>
-                    <h3>Наши ценности</h3>
-                    <p>Инновации, прозрачность, сотрудничество и ответственность — фундамент нашей корпоративной культуры.</p>
+                    <h3 class="tech-name">Web3 & Blockchain</h3>
+                    <p class="tech-description">Децентрализованные системы для создания прозрачной и безопасной цифровой экономики</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Команда -->
-    <section id="team" style="background: rgba(30, 30, 30, 0.5);">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-label">Наша команда</div>
-                <h2 class="section-title">Лидеры инноваций</h2>
-                <p class="section-subtitle">Талантливые умы, которые двигают технологический прогресс вперед</p>
-            </div>
-
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="member-photo">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <h3>Алексей Волков</h3>
-                    <p class="member-role">Генеральный директор</p>
-                    <p class="member-bio">Основатель компании, визионер в области квантовых вычислений и искусственного интеллекта.</p>
+            
+            <div class="tech-showcase">
+                <div class="section-header">
+                    <div class="section-label">Лаборатории будущего</div>
+                    <h2 class="section-title">Исследовательские центры</h2>
+                    <p class="section-subtitle">15 научно-исследовательских центров по всему миру, где рождаются прорывные технологии</p>
                 </div>
-
-                <div class="team-member">
-                    <div class="member-photo">
-                        <i class="fas fa-user"></i>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 50px;">
+                    <div style="background: var(--card-bg); padding: 30px; border-radius: 12px; border: 1px solid var(--glass-border);">
+                        <h4 style="font-size: 1.3rem; margin-bottom: 15px; color: var(--neon-blue);">Центр квантовых исследований</h4>
+                        <p style="color: rgba(255, 255, 255, 0.7);">Калифорния, США - Разработка квантовых алгоритмов и создание квантовых процессоров</p>
                     </div>
-                    <h3>Мария Смирнова</h3>
-                    <p class="member-role">Технический директор</p>
-                    <p class="member-bio">Эксперт в области машинного обучения и нейронных сетей с 15-летним опытом.</p>
-                </div>
-
-                <div class="team-member">
-                    <div class="member-photo">
-                        <i class="fas fa-user"></i>
+                    
+                    <div style="background: var(--card-bg); padding: 30px; border-radius: 12px; border: 1px solid var(--glass-border);">
+                        <h4 style="font-size: 1.3rem; margin-bottom: 15px; color: var(--neon-blue);">Лаборатория нейроинтерфейсов</h4>
+                        <p style="color: rgba(255, 255, 255, 0.7);">Цюрих, Швейцария - Исследования в области прямого взаимодействия мозг-компьютер</p>
                     </div>
-                    <h3>Дмитрий Петров</h3>
-                    <p class="member-role">Директор по исследованиям</p>
-                    <p class="member-bio">Ведущий специалист в области биотехнологий и наноинженерии.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Достижения -->
-    <section id="achievements">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-label">Достижения</div>
-                <h2 class="section-title">Наши успехи</h2>
-                <p class="section-subtitle">Моменты, которыми мы гордимся</p>
-            </div>
-
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-year">2010</div>
-                    <div class="timeline-content">
-                        <h3>Основание компании</h3>
-                        <p>ITCOFFEE начала свой путь с команды из 5 человек и офиса в 30 квадратных метров.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-year">2014</div>
-                    <div class="timeline-content">
-                        <h3>Первый крупный проект</h3>
-                        <p>Запуск платформы для анализа больших данных для медицинских исследований.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-year">2018</div>
-                    <div class="timeline-content">
-                        <h3>Прорыв в AI</h3>
-                        <p>Разработка собственной архитектуры нейронных сетей, превосходящей существующие аналоги.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-year">2023</div>
-                    <div class="timeline-content">
-                        <h3>Мировое признание</h3>
-                        <p>Капитализация компании превысила $30 миллиардов, проекты реализуются в 15 странах мира.</p>
+                    
+                    <div style="background: var(--card-bg); padding: 30px; border-radius: 12px; border: 1px solid var(--glass-border);">
+                        <h4 style="font-size: 1.3rem; margin-bottom: 15px; color: var(--neon-blue);">Институт космических технологий</h4>
+                        <p style="color: rgba(255, 255, 255, 0.7);">Токио, Япония - Разработка систем для освоения Луны и Марса</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Контакты -->
     <section id="contact">
         <div class="container">
             <div class="section-header">
@@ -1392,21 +1133,22 @@
                             <p>+1 (650) 123-4567</p>
                         </div>
                     </div>
-
+                    
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="contact-details">
                             <h4>Email</h4>
-                            <p>contact@ITCOFFEE.com</p>
+                            <p>innovation@itcoffee.com</p>
                         </div>
                     </div>
-
+                    
                     <div class="social-links">
                         <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 
@@ -1422,10 +1164,16 @@
                         <input type="email" id="email" class="form-control" placeholder="Введите ваш email" required>
                         <div class="form-error" id="emailError">Пожалуйста, введите корректный email</div>
                     </div>
-
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема</label>
+                        <input type="text" id="subject" class="form-control" placeholder="Тема сообщения" required>
+                        <div class="form-error" id="subjectError">Пожалуйста, введите тему сообщения</div>
+                    </div>
+                    
                     <div class="form-group">
                         <label for="message">Сообщение</label>
-                        <textarea id="message" class="form-control" placeholder="Расскажите о вашем проекте" required></textarea>
+                        <textarea id="message" class="form-control" placeholder="Опишите ваш проект или идею" required></textarea>
                         <div class="form-error" id="messageError">Пожалуйста, введите ваше сообщение</div>
                     </div>
                     
@@ -1439,53 +1187,66 @@
         </div>
     </section>
 
-    <!-- Футер -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-info">
-                    <h3>ITCOFFEE</h3>
+                    <h3>ITCoffee</h3>
                     <p>Создаем технологии, которые определяют будущее человечества. 15 лет инноваций, 150+ прорывных проектов, бесконечные возможности.</p>
                 </div>
                 
                 <div class="footer-column">
                     <h4>Компания</h4>
                     <ul class="footer-links">
-                        <li><a href="#about">О нас</a></li>
-                        <li><a href="#projects">Проекты</a></li>
-                        <li><a href="#tech">Технологии</a></li>
-                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Карьера</a></li>
+                        <li><a href="#">Новости</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h4>Ресурсы</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">Документация</a></li>
-                        <li><a href="#">Поддержка</a></li>
+                        <li><a href="#">Исследования</a></li>
+                        <li><a href="#">Публикации</a></li>
+                        <li><a href="#">Технологии</a></li>
+                        <li><a href="#">Форум</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Правовая информация</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Условия использования</a></li>
+                        <li><a href="#">Патенты</a></li>
+                        <li><a href="#">Лицензии</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="copyright">
-                <p>&copy; 2023 ITCOFFEE Technologies. Все права защищены. Капитализация: $30+ млрд.</p>
+                <p>&copy; 2023 ITCoffee Technologies. Все права защищены. Капитализация: $30+ млрд.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Кнопка "Наверх" -->
     <a href="#" class="scroll-to-top" id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </a>
 
     <script>
-        // Индикатор загрузки
-        window.addEventListener('load', function() {
+        // Индикатор загрузки - ровно 5 секунд
+        document.addEventListener('DOMContentLoaded', function() {
             const loader = document.getElementById('pageLoader');
             const progress = document.getElementById('loaderProgress');
             
             let width = 0;
+            const totalTime = 5000; // 5 секунд
+            const steps = 100;
+            const stepTime = totalTime / steps; // 50 мс на каждый шаг
+            
             const interval = setInterval(() => {
                 if (width >= 100) {
                     clearInterval(interval);
@@ -1493,10 +1254,10 @@
                         loader.classList.add('hidden');
                     }, 500);
                 } else {
-                    width += 5;
+                    width += 1;
                     progress.style.width = width + '%';
                 }
-            }, 50);
+            }, stepTime);
         });
 
         // Мобильное меню
@@ -1516,13 +1277,43 @@
             document.body.style.overflow = '';
         });
 
-        // Закрытие меню при клике на ссылку
         document.querySelectorAll('.mobile-nav-links a').forEach(link => {
             link.addEventListener('click', function() {
                 mobileMenu.classList.remove('active');
                 menuOverlay.classList.remove('active');
                 document.body.style.overflow = '';
             });
+        });
+
+        // Параллакс эффект для фона
+        document.addEventListener('mousemove', (e) => {
+            const bg = document.querySelector('.animated-bg');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            bg.style.transform = `translate(-${x * 20}px, -${y * 20}px)`;
+        });
+
+        // Анимация появления элементов при скролле
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.project-card, .tech-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
         });
 
         // Изменение навигации при скролле
@@ -1567,7 +1358,6 @@
             
             let isValid = true;
             
-            // Валидация имени
             const name = document.getElementById('name');
             const nameError = document.getElementById('nameError');
             if (name.value.trim() === '') {
@@ -1577,7 +1367,6 @@
                 nameError.style.display = 'none';
             }
             
-            // Валидация email
             const email = document.getElementById('email');
             const emailError = document.getElementById('emailError');
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -1587,8 +1376,16 @@
             } else {
                 emailError.style.display = 'none';
             }
-
-            // Валидация сообщения
+            
+            const subject = document.getElementById('subject');
+            const subjectError = document.getElementById('subjectError');
+            if (subject.value.trim() === '') {
+                subjectError.style.display = 'block';
+                isValid = false;
+            } else {
+                subjectError.style.display = 'none';
+            }
+            
             const message = document.getElementById('message');
             const messageError = document.getElementById('messageError');
             if (message.value.trim() === '') {
@@ -1598,15 +1395,12 @@
                 messageError.style.display = 'none';
             }
             
-            // Если форма валидна, показываем сообщение об успехе
             if (isValid) {
                 const formSuccess = document.getElementById('formSuccess');
                 formSuccess.style.display = 'block';
                 
-                // Очищаем форму
                 contactForm.reset();
                 
-                // Скрываем сообщение об успехе через 5 секунд
                 setTimeout(() => {
                     formSuccess.style.display = 'none';
                 }, 5000);
