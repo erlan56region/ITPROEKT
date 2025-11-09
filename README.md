@@ -1,4 +1,3 @@
-Сайт в раработке 
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -843,6 +842,7 @@
             background-clip: text;
         }
 
+        /* Исправления для адаптивности */
         @media (max-width: 1200px) {
             .container {
                 padding: 0 30px;
@@ -865,6 +865,9 @@
             }
             .projects-grid {
                 grid-template-columns: 1fr;
+            }
+            .tech-showcase {
+                padding: 60px 40px;
             }
         }
 
@@ -908,6 +911,49 @@
                 width: 100%;
                 text-align: center;
             }
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            .section-header {
+                margin-bottom: 50px;
+            }
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            .hero-badge {
+                font-size: 12px;
+            }
+            .btn {
+                padding: 14px 28px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+            .container {
+                padding: 0 15px;
+            }
+            .project-image {
+                height: 180px;
+            }
+            .project-content {
+                padding: 20px;
+            }
+            .tech-card {
+                padding: 30px 20px;
+            }
+            .coming-soon {
+                padding: 40px 20px;
+            }
+            .coming-soon-icon {
+                font-size: 3rem;
+            }
         }
     </style>
 </head>
@@ -930,8 +976,8 @@
             </a>
             <ul class="nav-links">
                 <li><a href="#projects">Проекты</a></li>
-                <li><a href="#tech">Технологии</a></li>
                 <li><a href="#services">Услуги</a></li>
+                <li><a href="#tech">Технологии</a></li>
                 <li><a href="#contact">Контакты</a></li>
             </ul>
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -943,8 +989,8 @@
     <div class="mobile-menu" id="mobileMenu">
         <ul class="mobile-nav-links">
             <li><a href="#projects">Проекты</a></li>
-            <li><a href="#tech">Технологии</a></li>
             <li><a href="#services">Услуги</a></li>
+            <li><a href="#tech">Технологии</a></li>
             <li><a href="#contact">Контакты</a></li>
         </ul>
     </div>
