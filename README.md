@@ -1084,4 +1084,536 @@
                             <div class="project-tech">
                                 <span class="tech-tag">Нейросети</span>
                                 <span class="tech-tag">Предиктивная аналитика</span>
-                                <
+                                <span class="tech-tag">Zero Trust</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Криптография">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Криптография</span>
+                            <h3 class="project-title">CryptoVault Solutions</h3>
+                            <p class="project-description">Инновационные решения для безопасного хранения и передачи конфиденциальной информации.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Постквантовая криптография</span>
+                                <span class="tech-tag">Многофакторная аутентификация</span>
+                                <span class="tech-tag">Биометрия</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-content" id="software-content">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Корпоративное ПО">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Корпоративные решения</span>
+                            <h3 class="project-title">Enterprise AI Suite</h3>
+                            <p class="project-description">Комплексная платформа для автоматизации бизнес-процессов с интеграцией искусственного интеллекта.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Машинное обучение</span>
+                                <span class="tech-tag">Аналитика данных</span>
+                                <span class="tech-tag">Облачные вычисления</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Мобильные приложения">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Мобильные решения</span>
+                            <h3 class="project-title">NeuroMobile Platform</h3>
+                            <p class="project-description">Инновационная платформа для создания адаптивных мобильных приложений с нейроинтерфейсами.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">iOS/Android</span>
+                                <span class="tech-tag">Нейроинтерфейсы</span>
+                                <span class="tech-tag">AR/VR</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Аналитические системы">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Аналитические системы</span>
+                            <h3 class="project-title">DataSphere Analytics</h3>
+                            <p class="project-description">Мощная аналитическая платформа для обработки больших данных и предиктивного моделирования.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Big Data</span>
+                                <span class="tech-tag">Предиктивная аналитика</span>
+                                <span class="tech-tag">Визуализация данных</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-content" id="services-content">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="ИТ-консалтинг">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">ИТ-консалтинг</span>
+                            <h3 class="project-title">Digital Transformation</h3>
+                            <p class="project-description">Комплексное сопровождение цифровой трансформации бизнеса с внедрением передовых технологий.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Стратегическое планирование</span>
+                                <span class="tech-tag">Технологический аудит</span>
+                                <span class="tech-tag">Внедрение решений</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Облачные решения">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Облачные решения</span>
+                            <h3 class="project-title">Quantum Cloud Services</h3>
+                            <p class="project-description">Высокопроизводительные облачные решения с интеграцией квантовых вычислений.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Гибридное облако</span>
+                                <span class="tech-tag">Квантовые вычисления</span>
+                                <span class="tech-tag">Масштабируемость</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Техническая поддержка">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Техническая поддержка</span>
+                            <h3 class="project-title">AI-Powered Support</h3>
+                            <p class="project-description">Круглосуточная техническая поддержка на основе искусственного интеллекта для бизнеса любого масштаба.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Искусственный интеллект</span>
+                                <span class="tech-tag">Автоматизация</span>
+                                <span class="tech-tag">Проактивный мониторинг</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-content" id="shop-content">
+                <div class="coming-soon">
+                    <div class="coming-soon-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 style="font-size: 2.5rem; margin-bottom: 20px;">Интернет-магазин в разработке</h3>
+                    <p style="font-size: 1.2rem; color: rgba(255, 255, 255, 0.7); max-width: 600px; margin: 0 auto;">
+                        Мы работаем над созданием уникального интернет-магазина с эксклюзивными технологическими решениями. 
+                        Скоро вы сможете приобрести наши продукты напрямую!
+                    </p>
+                    <div style="margin-top: 40px;">
+                        <div class="btn">Узнать первым о запуске <i class="fas fa-bell"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Наш арсенал</div>
+                <h2 class="section-title">Передовые технологии</h2>
+                <p class="section-subtitle">Инструменты и платформы, которые позволяют нам создавать будущее</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3 class="tech-name">Квантовые вычисления</h3>
+                    <p class="tech-description">Используем квантовые процессоры для решения задач, недоступных классическим компьютерам</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="tech-name">Искусственный интеллект</h3>
+                    <p class="tech-description">Самообучающиеся системы, способные к творческому мышлению и решению сложных проблем</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3 class="tech-name">Биотехнологии</h3>
+                    <p class="tech-description">Синтез биологии и технологий для создания революционных медицинских решений</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="tech-name">Космические технологии</h3>
+                    <p class="tech-description">Разработка систем для освоения космоса и создания инфраструктуры за пределами Земли</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="tech-name">Кибербезопасность</h3>
+                    <p class="tech-description">Квантово-устойчивые системы защиты для цифровой инфраструктуры будущего</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="tech-name">Web3 & Blockchain</h3>
+                    <p class="tech-description">Децентрализованные системы для создания прозрачной и безопасной цифровой экономики</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Свяжитесь с нами</div>
+                <h2 class="section-title">Начните сотрудничество</h2>
+                <p class="section-subtitle">Готовы изменить будущее вместе с нами? Мы всегда открыты для новых вызовов</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Главный офис</h4>
+                            <p>Innovation District, Tech City</p>
+                            <p>Silicon Valley, CA 94025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Телефон</h4>
+                            <p>+1 (650) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>innovation@itcoffee.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" class="form-control" placeholder="Введите ваше имя" required>
+                        <div class="form-error" id="nameError">Пожалуйста, введите ваше имя</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Введите ваш email" required>
+                        <div class="form-error" id="emailError">Пожалуйста, введите корректный email</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема</label>
+                        <input type="text" id="subject" class="form-control" placeholder="Тема сообщения" required>
+                        <div class="form-error" id="subjectError">Пожалуйста, введите тему сообщения</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" class="form-control" placeholder="Опишите ваш проект или идею" required></textarea>
+                        <div class="form-error" id="messageError">Пожалуйста, введите ваше сообщение</div>
+                    </div>
+                    
+                    <button type="submit" class="btn" style="align-self: flex-start;">Отправить заявку <i class="fas fa-paper-plane"></i></button>
+                    
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i> Ваше сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>ITCoffee</h3>
+                    <p>Создаем технологии, которые определяют будущее человечества. 15 лет инноваций, 150+ прорывных проектов, бесконечные возможности.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Компания</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Карьера</a></li>
+                        <li><a href="#">Новости</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Ресурсы</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Исследования</a></li>
+                        <li><a href="#">Публикации</a></li>
+                        <li><a href="#">Технологии</a></li>
+                        <li><a href="#">Форум</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Правовая информация</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Условия использования</a></li>
+                        <li><a href="#">Патенты</a></li>
+                        <li><a href="#">Лицензии</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 ITCoffee Technologies. Все права защищены. Капитализация: $30+ млрд.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script>
+        // Индикатор загрузки - ровно 5 секунд
+        document.addEventListener('DOMContentLoaded', function() {
+            const loader = document.getElementById('pageLoader');
+            const progress = document.getElementById('loaderProgress');
+            
+            let width = 0;
+            const totalTime = 5000; // 5 секунд
+            const steps = 100;
+            const stepTime = totalTime / steps; // 50 мс на каждый шаг
+            
+            const interval = setInterval(() => {
+                if (width >= 100) {
+                    clearInterval(interval);
+                    setTimeout(() => {
+                        loader.classList.add('hidden');
+                    }, 500);
+                } else {
+                    width += 1;
+                    progress.style.width = width + '%';
+                }
+            }, stepTime);
+        });
+
+        // Мобильное меню
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+            document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+        });
+        
+        menuOverlay.addEventListener('click', function() {
+            mobileMenu.classList.remove('active');
+            menuOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.remove('active');
+                menuOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // Параллакс эффект для фона
+        document.addEventListener('mousemove', (e) => {
+            const bg = document.querySelector('.animated-bg');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            bg.style.transform = `translate(-${x * 20}px, -${y * 20}px)`;
+        });
+
+        // Анимация появления элементов при скролле
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.project-card, .tech-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Изменение навигации при скролле
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            const scrollToTop = document.getElementById('scrollToTop');
+            
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(10, 10, 10, 0.95)';
+                nav.style.backdropFilter = 'blur(30px)';
+                scrollToTop.classList.add('active');
+            } else {
+                nav.style.background = 'rgba(10, 10, 10, 0.9)';
+                nav.style.backdropFilter = 'blur(20px)';
+                scrollToTop.classList.remove('active');
+            }
+        });
+
+        // Плавная прокрутка для навигационных ссылок
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Валидация формы
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            let isValid = true;
+            
+            const name = document.getElementById('name');
+            const nameError = document.getElementById('nameError');
+            if (name.value.trim() === '') {
+                nameError.style.display = 'block';
+                isValid = false;
+            } else {
+                nameError.style.display = 'none';
+            }
+            
+            const email = document.getElementById('email');
+            const emailError = document.getElementById('emailError');
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email.value.trim())) {
+                emailError.style.display = 'block';
+                isValid = false;
+            } else {
+                emailError.style.display = 'none';
+            }
+            
+            const subject = document.getElementById('subject');
+            const subjectError = document.getElementById('subjectError');
+            if (subject.value.trim() === '') {
+                subjectError.style.display = 'block';
+                isValid = false;
+            } else {
+                subjectError.style.display = 'none';
+            }
+            
+            const message = document.getElementById('message');
+            const messageError = document.getElementById('messageError');
+            if (message.value.trim() === '') {
+                messageError.style.display = 'block';
+                isValid = false;
+            } else {
+                messageError.style.display = 'none';
+            }
+            
+            if (isValid) {
+                const formSuccess = document.getElementById('formSuccess');
+                formSuccess.style.display = 'block';
+                
+                contactForm.reset();
+                
+                setTimeout(() => {
+                    formSuccess.style.display = 'none';
+                }, 5000);
+            }
+        });
+
+        // Табы для услуг
+        document.querySelectorAll('.service-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Убираем активный класс у всех табов
+                document.querySelectorAll('.service-tab').forEach(t => {
+                    t.classList.remove('active');
+                });
+                
+                // Добавляем активный класс текущему табу
+                this.classList.add('active');
+                
+                // Скрываем все контенты
+                document.querySelectorAll('.service-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                // Показываем соответствующий контент
+                const tabId = this.getAttribute('data-tab');
+                document.getElementById(`${tabId}-content`).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
